@@ -29,7 +29,7 @@ export interface EmailContact {
 export type Department = "Engineering" | "Finance" | "HR";
 export interface ColleagueV2 {
   name: string;
-  department: Department;    // *****
+  department: Department;
   contact: {
     email: string;
     extension: number;

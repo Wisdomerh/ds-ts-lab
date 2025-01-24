@@ -11,7 +11,7 @@ const friend1 : Friend = {
     name: "Jane Costello",
     phone: "086--12345",
     age: 31,
-    interests: ['Music', 'Sport']
+    interests: ['Music', 'Sport',]
   };  
 
 export const friends = [friend1, friend2];
